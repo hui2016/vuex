@@ -5,6 +5,7 @@
  * @param {Array} list
  * @param {Function} f
  * @return {*}
+ * some worlds
  */
 export function find (list, f) {
   return list.filter(f)[0]
